@@ -1,5 +1,7 @@
 # Projeto todo - RocketSeat | desafio 1
 
+![Projeto todo](./todo-project.png)
+
 Pô, cara, mais um todo? Todo dia isso? 
 
 Então, todo's são ótimas formas de utilizar vários conceitos do react e 
