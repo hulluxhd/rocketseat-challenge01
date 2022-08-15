@@ -1,0 +1,48 @@
+.taskContainer {
+    padding: 1rem;
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin:  0 1rem 0.75rem 1rem;
+}
+
+.taskContainer svg {
+    width: 1.5rem;
+    height: 1.rem;
+}
+
+.taskContainer button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.taskDescription {
+    display: flex;
+    gap: 12px;
+}
+
+.taskDescription > img {
+    cursor: pointer;
+}
+
+.taskContainer button{
+    color: var(--gray-300);
+    transition: color 0.1s ease-in-out;
+}
+
+.taskContainer button:hover {
+color: var(--danger);
+}
+
+.taskTextWithLine {
+    text-decoration-line: line-through;
+    color: var(--gray-300);
+}
+
+.taskTextWithoutLine {
+    text-decoration-line: none;
+    color: var(--white);
+}
